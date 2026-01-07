@@ -1,0 +1,19 @@
+current directory: /Users/nick/learn_dev/myapp/vendor/bundle/ruby/4.0.0/gems/stringio-3.2.0/ext/stringio
+/opt/homebrew/opt/ruby/bin/ruby extconf.rb
+checking for rb_io_mode_t in ruby/io.h... yes
+creating Makefile
+
+current directory: /Users/nick/learn_dev/myapp/vendor/bundle/ruby/4.0.0/gems/stringio-3.2.0/ext/stringio
+make -j13 DESTDIR\= sitearchdir\=./.gem.20260107-94492-d6hd49 sitelibdir\=./.gem.20260107-94492-d6hd49 clean
+
+current directory: /Users/nick/learn_dev/myapp/vendor/bundle/ruby/4.0.0/gems/stringio-3.2.0/ext/stringio
+make -j13 DESTDIR\= sitearchdir\=./.gem.20260107-94492-d6hd49 sitelibdir\=./.gem.20260107-94492-d6hd49
+compiling stringio.c
+linking shared-object stringio.bundle
+
+current directory: /Users/nick/learn_dev/myapp/vendor/bundle/ruby/4.0.0/gems/stringio-3.2.0/ext/stringio
+make -j13 DESTDIR\= sitearchdir\=./.gem.20260107-94492-d6hd49 sitelibdir\=./.gem.20260107-94492-d6hd49 install
+/usr/bin/install -c -m 0755 stringio.bundle ./.gem.20260107-94492-d6hd49
+
+current directory: /Users/nick/learn_dev/myapp/vendor/bundle/ruby/4.0.0/gems/stringio-3.2.0/ext/stringio
+make DESTDIR\= sitearchdir\=./.gem.20260107-94492-d6hd49 sitelibdir\=./.gem.20260107-94492-d6hd49 clean

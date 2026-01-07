@@ -1,0 +1,25 @@
+<div style="text-align: center; margin-top: 50px;">
+  <h1>Welcome to My Rails App!</h1>
+  <p>Today is <%= Time.now.strftime("%B %d, %Y") %></p>
+
+  <div style="margin-top: 30px;">
+    <h2>Navigation</h2>
+    <p>
+      <%= link_to "Home", root_path, style: "margin: 0 10px;" %> |
+      <%= link_to "About", about_path, style: "margin: 0 10px;" %> |
+      <%= link_to "Contact", contact_path, style: "margin: 0 10px;" %>
+      <%= link_to "Test", test_path, style: "margin: 0 10px;" %>
+    </p>
+  </div>
+
+  <div style="margin-top: 30px;">
+    <h2>Rails Version: <%= Rails.version %></h2>
+    <p>Edit this file at: <code>app/views/welcome/index.html.erb</code></p>
+  </div>
+
+  <div style="margin-top: 30px; padding: 20px; background-color: #f0f0f0; border-radius: 8px; display: inline-block;">
+    <h3>Quick Tester</h3>
+    <p>Current time: <%= Time.now.strftime("%I:%M:%S %p") %></p>
+    <p>Refresh the page to see the time update!</p>
+  </div>
+</div>
