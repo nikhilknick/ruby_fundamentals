@@ -1,0 +1,19 @@
+current directory: /Users/nick/learn_dev/myapp/vendor/bundle/ruby/3.4.0/gems/debug-1.11.1/ext/debug
+/Users/nick/.local/share/mise/installs/ruby/3.4.7/bin/ruby extconf.rb
+creating Makefile
+
+current directory: /Users/nick/learn_dev/myapp/vendor/bundle/ruby/3.4.0/gems/debug-1.11.1/ext/debug
+make -j13 DESTDIR\= sitearchdir\=./.gem.20260107-4260-bz0fqx sitelibdir\=./.gem.20260107-4260-bz0fqx clean
+
+current directory: /Users/nick/learn_dev/myapp/vendor/bundle/ruby/3.4.0/gems/debug-1.11.1/ext/debug
+make -j13 DESTDIR\= sitearchdir\=./.gem.20260107-4260-bz0fqx sitelibdir\=./.gem.20260107-4260-bz0fqx
+compiling debug.c
+compiling iseq_collector.c
+linking shared-object debug/debug.bundle
+
+current directory: /Users/nick/learn_dev/myapp/vendor/bundle/ruby/3.4.0/gems/debug-1.11.1/ext/debug
+make -j13 DESTDIR\= sitearchdir\=./.gem.20260107-4260-bz0fqx sitelibdir\=./.gem.20260107-4260-bz0fqx install
+/usr/bin/install -c -m 0755 debug.bundle ./.gem.20260107-4260-bz0fqx/debug
+
+current directory: /Users/nick/learn_dev/myapp/vendor/bundle/ruby/3.4.0/gems/debug-1.11.1/ext/debug
+make DESTDIR\= sitearchdir\=./.gem.20260107-4260-bz0fqx sitelibdir\=./.gem.20260107-4260-bz0fqx clean

@@ -1,0 +1,18 @@
+current directory: /Users/nick/learn_dev/myapp/vendor/bundle/ruby/3.4.0/gems/racc-1.8.1/ext/racc/cparse
+/Users/nick/.local/share/mise/installs/ruby/3.4.7/bin/ruby extconf.rb
+creating Makefile
+
+current directory: /Users/nick/learn_dev/myapp/vendor/bundle/ruby/3.4.0/gems/racc-1.8.1/ext/racc/cparse
+make -j13 DESTDIR\= sitearchdir\=./.gem.20260107-4260-hg73zd sitelibdir\=./.gem.20260107-4260-hg73zd clean
+
+current directory: /Users/nick/learn_dev/myapp/vendor/bundle/ruby/3.4.0/gems/racc-1.8.1/ext/racc/cparse
+make -j13 DESTDIR\= sitearchdir\=./.gem.20260107-4260-hg73zd sitelibdir\=./.gem.20260107-4260-hg73zd
+compiling cparse.c
+linking shared-object racc/cparse.bundle
+
+current directory: /Users/nick/learn_dev/myapp/vendor/bundle/ruby/3.4.0/gems/racc-1.8.1/ext/racc/cparse
+make -j13 DESTDIR\= sitearchdir\=./.gem.20260107-4260-hg73zd sitelibdir\=./.gem.20260107-4260-hg73zd install
+/usr/bin/install -c -m 0755 cparse.bundle ./.gem.20260107-4260-hg73zd/racc
+
+current directory: /Users/nick/learn_dev/myapp/vendor/bundle/ruby/3.4.0/gems/racc-1.8.1/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20260107-4260-hg73zd sitelibdir\=./.gem.20260107-4260-hg73zd clean

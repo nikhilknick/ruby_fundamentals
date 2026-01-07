@@ -1,0 +1,198 @@
+<style>
+  .practice-container { max-width: 1200px; margin: 20px auto; padding: 20px; font-family: Arial, sans-serif; }
+  .section { background: #f5f5f5; border-radius: 8px; padding: 20px; margin: 20px 0; }
+  .section h2 { color: #cc0000; border-bottom: 2px solid #cc0000; padding-bottom: 10px; }
+  .code { background: #282c34; color: #61dafb; padding: 15px; border-radius: 5px; font-family: 'Courier New', monospace; margin: 10px 0; overflow-x: auto; }
+  .result { background: #e8f5e9; padding: 10px; border-left: 4px solid #4caf50; margin: 10px 0; }
+  .label { font-weight: bold; color: #555; }
+  .nav-link { display: inline-block; margin: 10px 5px; padding: 8px 15px; background: #007bff; color: white; text-decoration: none; border-radius: 4px; }
+  .nav-link:hover { background: #0056b3; }
+</style>
+
+<div class="practice-container">
+  <h1>Ruby Fundamentals - Interactive Examples</h1>
+  <p><%= link_to "← Back to Home", root_path, class: "nav-link" %></p>
+
+  <!-- VARIABLES AND DATA TYPES -->
+  <div class="section">
+    <h2>1. Variables and Data Types</h2>
+
+    <h3>String</h3>
+    <div class="code">@string_example = "Hello, Ruby!"</div>
+    <div class="result"><span class="label">Result:</span> <%= @string_example %> (Type: <%= @string_example.class %>)</div>
+
+    <h3>Integer</h3>
+    <div class="code">@integer_example = 42</div>
+    <div class="result"><span class="label">Result:</span> <%= @integer_example %> (Type: <%= @integer_example.class %>)</div>
+
+    <h3>Float</h3>
+    <div class="code">@float_example = 3.14</div>
+    <div class="result"><span class="label">Result:</span> <%= @float_example %> (Type: <%= @float_example.class %>)</div>
+
+    <h3>Symbol</h3>
+    <div class="code">@symbol_example = :ruby_symbol</div>
+    <div class="result"><span class="label">Result:</span> <%= @symbol_example %> (Type: <%= @symbol_example.class %>)</div>
+
+    <h3>Array</h3>
+    <div class="code">@array_example = [1, 2, 3, "four", :five]</div>
+    <div class="result"><span class="label">Result:</span> <%= @array_example.inspect %></div>
+
+    <h3>Hash</h3>
+    <div class="code">@hash_example = { name: "John", age: 30, city: "NYC" }</div>
+    <div class="result"><span class="label">Result:</span> <%= @hash_example.inspect %></div>
+  </div>
+
+  <!-- OPERATORS -->
+  <div class="section">
+    <h2>2. Operators and Expressions</h2>
+
+    <h3>Arithmetic</h3>
+    <div class="code">10 + 5</div>
+    <div class="result"><span class="label">Result:</span> <%= @addition %></div>
+
+    <h3>Comparison</h3>
+    <div class="code">10 > 5</div>
+    <div class="result"><span class="label">Result:</span> <%= @comparison %></div>
+
+    <h3>String Concatenation</h3>
+    <div class="code">"Hello" + " " + "World"</div>
+    <div class="result"><span class="label">Result:</span> <%= @string_concat %></div>
+  </div>
+
+  <!-- CONTROL FLOW -->
+  <div class="section">
+    <h2>3. Control Flow</h2>
+
+    <h3>if/elsif/else</h3>
+    <div class="code">if @integer_example > 40
+  "Number is greater than 40"
+elsif @integer_example == 40
+  "Number is exactly 40"
+else
+  "Number is less than 40"
+end</div>
+    <div class="result"><span class="label">Result:</span> <%= @if_result %></div>
+
+    <h3>unless</h3>
+    <div class="code">unless @integer_example < 0
+  "Number is not negative"
+end</div>
+    <div class="result"><span class="label">Result:</span> <%= @unless_result %></div>
+
+    <h3>case/when</h3>
+    <div class="code">case @integer_example
+when 0..20
+  "Low number"
+when 21..50
+  "Medium number"
+else
+  "High number"
+end</div>
+    <div class="result"><span class="label">Result:</span> <%= @case_result %></div>
+  </div>
+
+  <!-- LOOPS AND ITERATORS -->
+  <div class="section">
+    <h2>4. Loops and Iterators</h2>
+
+    <h3>.each (iterate and modify)</h3>
+    <div class="code">[1, 2, 3, 4, 5].each { |num| array << num * 2 }</div>
+    <div class="result"><span class="label">Result:</span> <%= @each_example.inspect %></div>
+
+    <h3>.map (transform array)</h3>
+    <div class="code">[1, 2, 3, 4, 5].map { |num| num ** 2 }</div>
+    <div class="result"><span class="label">Result:</span> <%= @map_example.inspect %></div>
+
+    <h3>.select (filter - keep matching)</h3>
+    <div class="code">[1, 2, 3, 4, 5, 6].select { |num| num.even? }</div>
+    <div class="result"><span class="label">Result:</span> <%= @select_example.inspect %></div>
+
+    <h3>.reject (filter - remove matching)</h3>
+    <div class="code">[1, 2, 3, 4, 5, 6].reject { |num| num.odd? }</div>
+    <div class="result"><span class="label">Result:</span> <%= @reject_example.inspect %></div>
+  </div>
+
+  <!-- STRING MANIPULATION -->
+  <div class="section">
+    <h2>5. String Interpolation and Manipulation</h2>
+
+    <h3>String Interpolation</h3>
+    <div class="code">name = "Alice"
+age = 25
+"My name is #{name} and I am #{age} years old"</div>
+    <div class="result"><span class="label">Result:</span> <%= @interpolation %></div>
+
+    <h3>String Methods</h3>
+    <div class="code">"hello".upcase</div>
+    <div class="result"><span class="label">Result:</span> <%= @upcase %></div>
+
+    <div class="code">"WORLD".downcase</div>
+    <div class="result"><span class="label">Result:</span> <%= @downcase %></div>
+
+    <div class="code">"Ruby".reverse</div>
+    <div class="result"><span class="label">Result:</span> <%= @reverse %></div>
+
+    <div class="code">"one,two,three".split(",")</div>
+    <div class="result"><span class="label">Result:</span> <%= @split.inspect %></div>
+
+    <div class="code">"Hello".length</div>
+    <div class="result"><span class="label">Result:</span> <%= @length %></div>
+  </div>
+
+  <!-- ARRAYS -->
+  <div class="section">
+    <h2>6. Working with Arrays</h2>
+
+    <div class="code">[1, 2, 3].push(4)</div>
+    <div class="result"><span class="label">Result:</span> <%= @array_push.inspect %></div>
+
+    <div class="code">[10, 20, 30].first</div>
+    <div class="result"><span class="label">Result:</span> <%= @array_first %></div>
+
+    <div class="code">[10, 20, 30].last</div>
+    <div class="result"><span class="label">Result:</span> <%= @array_last %></div>
+
+    <div class="code">[1, 2, 3].include?(2)</div>
+    <div class="result"><span class="label">Result:</span> <%= @array_include %></div>
+  </div>
+
+  <!-- HASHES -->
+  <div class="section">
+    <h2>7. Working with Hashes</h2>
+
+    <div class="code">{ a: 1, b: 2, c: 3 }.keys</div>
+    <div class="result"><span class="label">Result:</span> <%= @hash_keys.inspect %></div>
+
+    <div class="code">{ a: 1, b: 2, c: 3 }.values</div>
+    <div class="result"><span class="label">Result:</span> <%= @hash_values.inspect %></div>
+
+    <div class="code">{ a: 1 }.merge({ b: 2 })</div>
+    <div class="result"><span class="label">Result:</span> <%= @hash_merge.inspect %></div>
+  </div>
+
+  <!-- METHODS AND BLOCKS -->
+  <div class="section">
+    <h2>8. Methods and Blocks</h2>
+
+    <h3>Method</h3>
+    <div class="code">def calculate_sum(a, b)
+  a + b
+end
+
+calculate_sum(10, 20)</div>
+    <div class="result"><span class="label">Result:</span> <%= @method_result %></div>
+
+    <h3>Block with yield</h3>
+    <div class="code">def with_timing
+  start_time = Time.now
+  result = yield
+  end_time = Time.now
+  { result: result, duration: (end_time - start_time) }
+end
+
+with_timing { slow_operation }</div>
+    <div class="result"><span class="label">Result:</span> <%= @block_result.inspect %></div>
+  </div>
+
+  <p><%= link_to "← Back to Home", root_path, class: "nav-link" %></p>
+</div>

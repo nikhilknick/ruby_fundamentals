@@ -1,0 +1,18 @@
+current directory: /Users/nick/learn_dev/myapp/vendor/bundle/ruby/3.4.0/gems/websocket-driver-0.8.0/ext/websocket-driver
+/Users/nick/.local/share/mise/installs/ruby/3.4.7/bin/ruby extconf.rb
+creating Makefile
+
+current directory: /Users/nick/learn_dev/myapp/vendor/bundle/ruby/3.4.0/gems/websocket-driver-0.8.0/ext/websocket-driver
+make -j13 DESTDIR\= sitearchdir\=./.gem.20260107-4260-lwgodb sitelibdir\=./.gem.20260107-4260-lwgodb clean
+
+current directory: /Users/nick/learn_dev/myapp/vendor/bundle/ruby/3.4.0/gems/websocket-driver-0.8.0/ext/websocket-driver
+make -j13 DESTDIR\= sitearchdir\=./.gem.20260107-4260-lwgodb sitelibdir\=./.gem.20260107-4260-lwgodb
+compiling websocket_mask.c
+linking shared-object websocket_mask.bundle
+
+current directory: /Users/nick/learn_dev/myapp/vendor/bundle/ruby/3.4.0/gems/websocket-driver-0.8.0/ext/websocket-driver
+make -j13 DESTDIR\= sitearchdir\=./.gem.20260107-4260-lwgodb sitelibdir\=./.gem.20260107-4260-lwgodb install
+/usr/bin/install -c -m 0755 websocket_mask.bundle ./.gem.20260107-4260-lwgodb
+
+current directory: /Users/nick/learn_dev/myapp/vendor/bundle/ruby/3.4.0/gems/websocket-driver-0.8.0/ext/websocket-driver
+make DESTDIR\= sitearchdir\=./.gem.20260107-4260-lwgodb sitelibdir\=./.gem.20260107-4260-lwgodb clean

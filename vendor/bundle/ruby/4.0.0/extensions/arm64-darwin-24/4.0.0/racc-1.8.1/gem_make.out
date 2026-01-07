@@ -1,0 +1,18 @@
+current directory: /Users/nick/learn_dev/myapp/vendor/bundle/ruby/4.0.0/gems/racc-1.8.1/ext/racc/cparse
+/opt/homebrew/opt/ruby/bin/ruby extconf.rb
+creating Makefile
+
+current directory: /Users/nick/learn_dev/myapp/vendor/bundle/ruby/4.0.0/gems/racc-1.8.1/ext/racc/cparse
+make -j13 DESTDIR\= sitearchdir\=./.gem.20260107-94492-qa78jw sitelibdir\=./.gem.20260107-94492-qa78jw clean
+
+current directory: /Users/nick/learn_dev/myapp/vendor/bundle/ruby/4.0.0/gems/racc-1.8.1/ext/racc/cparse
+make -j13 DESTDIR\= sitearchdir\=./.gem.20260107-94492-qa78jw sitelibdir\=./.gem.20260107-94492-qa78jw
+compiling cparse.c
+linking shared-object racc/cparse.bundle
+
+current directory: /Users/nick/learn_dev/myapp/vendor/bundle/ruby/4.0.0/gems/racc-1.8.1/ext/racc/cparse
+make -j13 DESTDIR\= sitearchdir\=./.gem.20260107-94492-qa78jw sitelibdir\=./.gem.20260107-94492-qa78jw install
+/usr/bin/install -c -m 0755 cparse.bundle ./.gem.20260107-94492-qa78jw/racc
+
+current directory: /Users/nick/learn_dev/myapp/vendor/bundle/ruby/4.0.0/gems/racc-1.8.1/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20260107-94492-qa78jw sitelibdir\=./.gem.20260107-94492-qa78jw clean

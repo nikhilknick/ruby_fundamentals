@@ -1,0 +1,18 @@
+current directory: /Users/nick/learn_dev/myapp/vendor/bundle/ruby/4.0.0/gems/bindex-0.8.1/ext/skiptrace
+/opt/homebrew/opt/ruby/bin/ruby extconf.rb
+creating Makefile
+
+current directory: /Users/nick/learn_dev/myapp/vendor/bundle/ruby/4.0.0/gems/bindex-0.8.1/ext/skiptrace
+make -j13 DESTDIR\= sitearchdir\=./.gem.20260107-94492-1d8rdt sitelibdir\=./.gem.20260107-94492-1d8rdt clean
+
+current directory: /Users/nick/learn_dev/myapp/vendor/bundle/ruby/4.0.0/gems/bindex-0.8.1/ext/skiptrace
+make -j13 DESTDIR\= sitearchdir\=./.gem.20260107-94492-1d8rdt sitelibdir\=./.gem.20260107-94492-1d8rdt
+compiling cruby.c
+linking shared-object skiptrace/internal/cruby.bundle
+
+current directory: /Users/nick/learn_dev/myapp/vendor/bundle/ruby/4.0.0/gems/bindex-0.8.1/ext/skiptrace
+make -j13 DESTDIR\= sitearchdir\=./.gem.20260107-94492-1d8rdt sitelibdir\=./.gem.20260107-94492-1d8rdt install
+/usr/bin/install -c -m 0755 cruby.bundle ./.gem.20260107-94492-1d8rdt/skiptrace/internal
+
+current directory: /Users/nick/learn_dev/myapp/vendor/bundle/ruby/4.0.0/gems/bindex-0.8.1/ext/skiptrace
+make DESTDIR\= sitearchdir\=./.gem.20260107-94492-1d8rdt sitelibdir\=./.gem.20260107-94492-1d8rdt clean

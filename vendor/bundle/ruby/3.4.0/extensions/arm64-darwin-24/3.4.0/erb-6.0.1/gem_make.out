@@ -1,0 +1,19 @@
+current directory: /Users/nick/learn_dev/myapp/vendor/bundle/ruby/3.4.0/gems/erb-6.0.1/ext/erb/escape
+/Users/nick/.local/share/mise/installs/ruby/3.4.7/bin/ruby extconf.rb
+checking for rb_ext_ractor_safe() in ruby.h... yes
+creating Makefile
+
+current directory: /Users/nick/learn_dev/myapp/vendor/bundle/ruby/3.4.0/gems/erb-6.0.1/ext/erb/escape
+make -j13 DESTDIR\= sitearchdir\=./.gem.20260107-4260-ou4ufa sitelibdir\=./.gem.20260107-4260-ou4ufa clean
+
+current directory: /Users/nick/learn_dev/myapp/vendor/bundle/ruby/3.4.0/gems/erb-6.0.1/ext/erb/escape
+make -j13 DESTDIR\= sitearchdir\=./.gem.20260107-4260-ou4ufa sitelibdir\=./.gem.20260107-4260-ou4ufa
+compiling escape.c
+linking shared-object erb/escape.bundle
+
+current directory: /Users/nick/learn_dev/myapp/vendor/bundle/ruby/3.4.0/gems/erb-6.0.1/ext/erb/escape
+make -j13 DESTDIR\= sitearchdir\=./.gem.20260107-4260-ou4ufa sitelibdir\=./.gem.20260107-4260-ou4ufa install
+/usr/bin/install -c -m 0755 escape.bundle ./.gem.20260107-4260-ou4ufa/erb
+
+current directory: /Users/nick/learn_dev/myapp/vendor/bundle/ruby/3.4.0/gems/erb-6.0.1/ext/erb/escape
+make DESTDIR\= sitearchdir\=./.gem.20260107-4260-ou4ufa sitelibdir\=./.gem.20260107-4260-ou4ufa clean
